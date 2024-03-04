@@ -1,3 +1,6 @@
+/**
+ * Proporciona métodos para el cálculo del número PI mediante el método de Montecarlo.
+ */
 package mates;
 
 import java.util.Random;
@@ -5,6 +8,14 @@ import java.util.Random;
 
 public class Matematicas {
     
+    /**
+ * Genera una aproximación al número PI de manera recursiva mediante el método de Montecarlo.
+ *
+ * @param pasos La cantidad de iteraciones para el cálculo.
+ * @param puntosDentroCirculo La cantidad de puntos generados que caen dentro del círculo.
+ * @param puntosGenerados La cantidad total de puntos generados.
+ * @return La aproximación al número PI.
+ */
     
     public static double generarNumeroPiRecursivo(long pasos, int puntosDentroCirculo, int puntosGenerados) {
         
