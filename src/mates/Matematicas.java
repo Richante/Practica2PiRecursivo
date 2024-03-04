@@ -5,9 +5,12 @@ package mates;
 
 import java.util.Random;
 
+/**
+ * La clase Matematicas contiene métodos para realizar cálculos del número PI utilizando el método de Montecarlo.
+ */
 
 public class Matematicas {
-    
+
     /**
  * Genera una aproximación al número PI de manera recursiva mediante el método de Montecarlo.
  *
